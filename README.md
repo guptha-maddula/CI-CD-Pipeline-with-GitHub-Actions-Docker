@@ -141,9 +141,6 @@ http://localhost:80
 Manage in:  
 **GitHub → Repo → Settings → Secrets → Actions**
 
-Of course, Guptha!  
-Here are **some strong "Learnings"** you can add to your GitHub README file to make it look **more professional and recruiter-attractive**:
-
 ---
 
 ## Learnings
