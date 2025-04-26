@@ -68,13 +68,9 @@ http://localhost:80
 ```
 ecommerce-frontend/
 ├── index.html              # Main Frontend File
-├── assets/                 # Static Assets (CSS, JS, Images)
+├── Pictures/                 # Pictures and Outputs
 ├── Dockerfile              # Docker Build File
-├── nginx/
-│   └── default.conf        # Nginx Custom Configuration
-├── .github/
-│   └── workflows/
-│       └── ci-cd.yml       # CI/CD Workflow Definition
+├── default.conf            # Nginx Custom Configuration
 └── README.md               # Project Documentation
 ```
 
