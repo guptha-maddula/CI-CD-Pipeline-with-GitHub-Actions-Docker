@@ -27,15 +27,15 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t guptha/ecommerce-frontend:latest .
+        docker build -t cicd-webapp .
 
     - name: Push Docker Image to Docker Hub
       run: |
-        docker push guptha/ecommerce-frontend:latest
+        docker push cicd-webapp
 
     - name: Run Docker Container
       run: |
-        docker run -d -p 8080:80 --name ci-cd-webapp guptha/ecommerce-frontend:latest
+        docker run -d -p 8080:80 --name ci-cd-webapp
 
     - name: Wait for the container to start
       run: |
