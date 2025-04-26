@@ -48,8 +48,8 @@ The pipeline automates:
 After successful push to Docker Hub:
 
 ```bash
-docker pull gupthamaddula/ecommerce-frontend:latest
-docker run -d --name cicd-container -p 80:80 gupthamaddula/ecommerce-frontend
+docker pull username/image_name
+docker run -d --name cicd-container -p 80:80 image_name 
 ```
 
 Application accessible at:
